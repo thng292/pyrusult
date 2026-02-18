@@ -1,7 +1,7 @@
 [project]
 name = "pyrusult"
 version = "0.1.0"
-description = "Add your description here"
+description = "Rust's std::result<T, E> ported to python"
 readme = "README.md"
 authors = [
     { name = "thng292", email = "nguyenquangthong292@gmail.com" }

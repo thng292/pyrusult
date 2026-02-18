@@ -2,10 +2,6 @@
 include = [
     "pyproject.toml",
     "src/**/*.py",
-    "scripts/**/*.py",
-    "templates/**/*.py",
-    "templates/**/*.py.mako",
-    "alembic/**/*.py",
 ]
 line-length = 80
 
@@ -17,7 +13,7 @@ extend-select = [
     "D",    # pydocstyle
     "B",    # flake8-bugbear
     "SIM",  # flake8-simplify
-    "I",    # isort 
+    "I",    # isort
 ]
 extend-ignore = ["UP007", "UP035", "UP045", "F401"]
 
