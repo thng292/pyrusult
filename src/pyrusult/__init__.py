@@ -7,8 +7,8 @@ from typing import Generic, Literal, TypeVar, Callable, TypeAlias
 from dataclasses import dataclass
 
 
-T = TypeVar("T")
-E = TypeVar("E")
+T = TypeVar("T", covariant=True)
+E = TypeVar("E", covariant=True)
 U = TypeVar("U")
 V = TypeVar("V")
 
