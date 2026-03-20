@@ -45,7 +45,7 @@ class _Result(Generic[T, E]):
             raise RuntimeError(self.value)
         return self.value
 
-    def unwrap_or(self, default: T):
+    def unwrap_or(self, default: T) -> T:
         """Get success value, if error return default."""
         if self.status == ResultStatus.Err:
             return default
